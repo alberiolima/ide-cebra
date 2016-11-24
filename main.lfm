@@ -1,0 +1,112 @@
+object mainForm: TmainForm
+  Left = 418
+  Height = 351
+  Top = 191
+  Width = 510
+  Caption = 'IDE-CEBRA'
+  ClientHeight = 351
+  ClientWidth = 510
+  Menu = mainMenu
+  LCLVersion = '1.6.0.4'
+  object toolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 510
+    Caption = 'toolBar'
+    Images = imageList
+    TabOrder = 0
+    object ToolButton1: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'ToolButton1'
+    end
+    object ToolButton2: TToolButton
+      Left = 24
+      Top = 2
+      Caption = 'ToolButton2'
+    end
+    object ToolButton3: TToolButton
+      Left = 47
+      Top = 2
+      Caption = 'ToolButton3'
+    end
+    object ToolButton4: TToolButton
+      Left = 70
+      Top = 2
+      Caption = 'ToolButton4'
+    end
+    object ToolButton5: TToolButton
+      Left = 93
+      Top = 2
+      Caption = 'ToolButton5'
+    end
+    object ToolButton6: TToolButton
+      Left = 116
+      Top = 2
+      Caption = 'ToolButton6'
+    end
+    object ToolButton7: TToolButton
+      Left = 139
+      Top = 2
+      Caption = 'ToolButton7'
+    end
+    object ToolButton8: TToolButton
+      Left = 162
+      Top = 2
+      Caption = 'ToolButton8'
+    end
+    object ToolButton9: TToolButton
+      Left = 185
+      Top = 2
+      Caption = 'ToolButton9'
+    end
+    object ToolButton10: TToolButton
+      Left = 208
+      Top = 2
+      Caption = 'ToolButton10'
+    end
+    object ToolButton11: TToolButton
+      Left = 231
+      Top = 2
+      Caption = 'ToolButton11'
+    end
+    object ToolButton12: TToolButton
+      Left = 254
+      Top = 2
+      Caption = 'ToolButton12'
+    end
+    object ToolButton13: TToolButton
+      Left = 277
+      Top = 2
+      Caption = 'ToolButton13'
+    end
+  end
+  object richMemo: TRichMemo
+    Left = 0
+    Height = 325
+    Top = 26
+    Width = 510
+    Align = alClient
+    HideSelection = False
+    ScrollBars = ssVertical
+    TabOrder = 1
+    ZoomFactor = 1
+  end
+  object imageList: TImageList
+    left = 143
+    top = 81
+  end
+  object openDialog: TOpenDialog
+    left = 56
+    top = 64
+  end
+  object saveDialog: TSaveDialog
+    left = 62
+    top = 156
+  end
+  object mainMenu: TMainMenu
+    left = 314
+    top = 116
+  end
+end
